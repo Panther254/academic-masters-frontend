@@ -1,0 +1,63 @@
+.SignIn{
+	display: flex;
+	height: 100vh;
+	width:  100vw;
+	align-items: center;
+	justify-content: center;
+}
+
+.signIn__container{
+	display: inherit;
+	flex-direction: column;
+	width: 30%;
+	border: 1px solid #f2f2f2;
+	padding: 1em 1em 1em 1em;
+}
+
+.signIn__container>form{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.signIn__container>h1{
+	align-self: center;
+}
+
+.signIn__container > form > .user__info{
+	display: flex;
+	flex-direction: column;
+	margin-top: 1.2em;
+}
+
+.user__info>label{
+	margin-bottom: 0.5em;
+}
+
+
+.user__info>input{
+	outline: none;
+	border-radius: 2em;
+	border: 1px solid #009aee;
+	padding-left: .5em;
+	height: 1.8em;
+}
+
+form> .button__container{
+	align-self: center;
+}
+
+form > div > .button{
+	margin-top: 0.8em;
+	background-color: #009aee;
+	border-radius: 2em;
+	text-align: center;
+	color: white;
+	padding: .5em;
+	border: none;
+	width: fit-content;
+}
+
+form > div > .button:hover{
+	cursor: pointer;
+}
